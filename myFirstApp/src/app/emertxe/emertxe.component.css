@@ -1,0 +1,57 @@
+*
+{
+    box-sizing: border-box ;
+    margin:0;
+    padding: 0; 
+}
+header
+{
+    height:50px;
+    background: rgba(178, 180, 145, 0.9); 
+}
+h1
+{
+    font-size:250%;
+    color: gray;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    text-shadow:-1px -1px #000,1px -1px #000,-1px 1px #000,1px 1px #000;  
+}
+.container
+{
+    background:rgba(150, 110, 105, 0.9); 
+}
+.container p
+{
+    text-align: justify;
+    word-spacing:10px;
+    line-height:3em;  
+    text-transform: capitalize;
+}
+.box
+{
+    width:200px;
+    height:200px;
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.box p
+{
+    font-size:2.5em;
+    text-align: center;
+    line-height:5em;     
+    display: block;
+}
+.box p:hover
+{
+    transform: scale(2);     
+}
+
+.value
+{
+    font-size:500%;
+    color:gray;
+    text-align: center; 
+}
